@@ -1,0 +1,29 @@
+.wrapperTabs {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.btnTabs {
+  display: flex;
+  justify-content: center;
+  border: 2px solid #333;
+}
+.tabs {
+  width: 50%;
+  height: 3rem;
+  background: #333;
+  color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.container {
+  border: 2px solid #333;
+  border-top: none;
+}
+
+.active {
+  background: #f1f1f1;
+  color: #333;
+}

@@ -1,0 +1,23 @@
+.wrapperHome {
+  width: 100vw;
+  height: 90vh;
+  position: fixed;
+  bottom: 0;
+  padding: 1rem;
+  box-sizing:border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title p,h1 {
+  font-size: 2rem;
+}
