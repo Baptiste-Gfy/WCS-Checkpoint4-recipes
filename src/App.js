@@ -1,7 +1,9 @@
+import Root from "./components/router/Root";
+
 function App() {
   return (
     <div className="App">
-      <p>App</p>
+      <Root />
     </div>
   );
 }
